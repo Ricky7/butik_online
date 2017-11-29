@@ -1,0 +1,108 @@
+.header{
+   background:url(../images/banner33.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height:720px;
+	position:relative;
+	
+}
+i.arrow{
+	width:22px;
+	height:22px;
+	background: url('../images/img-sprite.png') no-repeat 0px -30px;
+	display:inline-block;
+	cursor:pointer;
+	vertical-align: middle;
+	margin-left:20px;
+}
+.fashion-grid-a {
+	background:url(../images/bg1.jpg) no-repeat;
+	width:32%;
+	margin-right:2%;
+	min-height: 210px;
+}
+.fashion-grid-b {
+	background: url(../images/bg2.jpg) no-repeat;
+	width:32%;
+	margin-right:2%;
+	min-height: 210px;
+}
+.fashion-grid-c {
+	background: url(../images/bg3.jpg) no-repeat;
+	width:32%;
+	min-height: 210px;
+}
+.products{
+	background:url(../images/banner2.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+	min-height:590px;
+}
+.fotter{
+	background:url(../images/banner2.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+	min-height:395px;
+	padding:3.5em 0;
+}
+.social-icons a span{
+	width:39px;
+	height:39px;
+	background:url('../images/social.png') no-repeat 0px 0px;
+	display:inline-block;
+}
+.header2{
+   background:url(../images/banner33.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+	min-height:250px;
+}
+.sidebar span {
+width: 18px;
+height: 18px;
+background: url(../images/arw.png) no-repeat 0px 6px;
+display: block;
+float: left;
+}
+.metro:hover .selected::after, .metro.focus .selected::after {
+  background: url(../images/p_minus.png) no-repeat 0px 10px;
+}
+.metro .selected::after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding:6px;
+	background:url(../images/p_plus.png) no-repeat 0px 10px;
+}
+.metro:hover .selected::after,
+.metro.focus .selected::after{
+	background:url(../images/p_minus.png) no-repeat 0px 10px;
+}
+.close1,.close2{
+  background: url('../images/close.png') no-repeat 0px 0px;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.cart-list li {
+	list-style-image: url(../images/icon2.png);
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
